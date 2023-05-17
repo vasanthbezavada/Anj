@@ -1,10 +1,10 @@
 package oops.play;
 
 class ParentRank{
-    int rank = 10;
+    public int rank = 10;
 }
 class ChildRank extends ParentRank{
-    int rank = 5;
+    public int rank = 5;
 }
 class Parent1{
     String name = "subbarao";
@@ -18,7 +18,7 @@ class Child1 extends Parent1{
     String name = "venkatRao";
     ChildRank childRank = new ChildRank();
     @Override
-    public ChildRank returnRank(){
+    public ParentRank returnRank(){
         System.out.println("returning something");
         return childRank;
     }
