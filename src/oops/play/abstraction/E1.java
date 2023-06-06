@@ -5,7 +5,6 @@ interface AnjI{
     default void sub(int a, int b){
         System.out.println(a-b);
     }
-    // static methods , defaults methods
 }
 interface VasI{
     void mul (int a, int b);
