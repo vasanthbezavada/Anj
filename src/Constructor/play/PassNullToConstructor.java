@@ -14,7 +14,7 @@ class SampleConstructor{
 
 }
 
-public class PassNullToConstructor {
+public class  PassNullToConstructor {
     public static void main(String[] args) {
 
         SampleConstructor sampleConstructor = new SampleConstructor(null);
