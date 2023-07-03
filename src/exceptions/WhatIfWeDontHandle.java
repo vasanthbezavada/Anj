@@ -7,9 +7,7 @@ public class WhatIfWeDontHandle extends RuntimeException{
     public static void main(String[] args){
         try {
             System.out.println(5/0);
-        }catch (ArithmeticException exception){
-            System.out.println("io exception handled");
-        }finally {
+        } finally {
             System.out.println("Reached finally statement");
         }
         System.out.println("program executed successfully");
